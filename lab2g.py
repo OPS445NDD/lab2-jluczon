@@ -3,14 +3,14 @@
   # Author ID: jluczon
   # Date Created: May 15, 2026
 
-  import sys
+import sys
 
-  if len(sys.argv) >= 2:
-      timer = int(sys.argv[1])
-  else:
-      timer = 3
+if len(sys.argv) >= 2:
+    timer = int(sys.argv[1])
+else:
+    timer = 3
 
-  while timer > 0:
-      print(timer)
-      timer = timer - 1
-  print('blast off!')
+while timer > 0:
+   print(timer)
+   timer = timer - 1
+print('blast off!')
